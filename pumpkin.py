@@ -5,7 +5,7 @@ our_window = arcade.open_window(1000, 1000, "Jack-o-lantern")
 arcade.set_background_color(arcade.color.GREEN)
 message = arcade.Text("We did this in class",400, 900,
                       arcade.color.AMAZON, 24)
-arcade.start_render()
+arcade.start_render()  #comment for git
 message.draw()
 arcade.draw_circle_filled(500,500, 400, arcade.color.PUMPKIN)
 arcade.draw_lrtb_rectangle_filled(450, 550, 550, 450,
